@@ -1,40 +1,40 @@
-body{
-     font-family: 'Oswald', sans-serif;
-     margin: 0px;
-     background-color: rgb(32, 77, 58);
-     width: 100%;
+body {
+  font-family: "Oswald", sans-serif;
+  margin: 0px;
+  background-color: rgb(32, 77, 58);
+  width: 100%;
 }
 
-.div{
-     width: 100%;
+.div {
+  width: 100%;
 }
 
-a{
-     font-size: 50px;
-     color: #ffffff;
-     text-decoration: none;
-     padding-left: 20px;
+a {
+  font-size: 50px;
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 20px;
 }
 
-a:hover{
-     color: rgb(255, 137, 1);
-     cursor: pointer;
+a:hover {
+  color: rgb(255, 137, 1);
+  cursor: pointer;
 }
 
-h1{
-     text-align: center;
-     margin-top: 0;
-     font-weight: 400;
-     font-size: 50px;
-     color: #ffffff;
+h1 {
+  text-align: center;
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 50px;
+  color: #ffffff;
 }
 
-.centrar{
-     width: 100%;
-     margin-left: 150px
+.centrar {
+  width: 100%;
+  margin-left: 150px;
 }
 
-embed{
-     height: 1100px;
-     width: 80%;
+embed {
+  height: 1100px;
+  width: 80%;
 }
