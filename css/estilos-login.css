@@ -1,0 +1,109 @@
+html{
+     font-size: 62.5%; /**Reset para REMS ~ 62.5 = 10px de 16px**/ 
+}
+
+body{
+     font-family: 'Oswald', sans-serif;
+     font-size: 1.6rem; /** 16px **/
+     margin: 0;
+     height: 86.7rem;
+     background-image: url(../imagenes/Login/fondo4.jpg);
+     height: 67rem;
+     padding: 0px;
+}
+
+.volver{
+     width: 100%;
+     height: 65px;
+     background-color: rgb(32, 77, 58);
+     padding: 0px;
+}
+
+a{
+     font-size: 5rem;
+     color: #ffffff;
+     text-decoration: none;
+     margin-left: 1rem;
+}
+
+a:hover{
+     color: darkorange;
+}
+
+
+.div-login{
+     margin-top: 30px;
+     background-color: rgba(43, 50, 51, 0.705);
+     width: 45rem;
+     height: 520px;
+     border-radius: 4rem;
+     border-style: outset;
+     margin-bottom: 0px;
+}
+
+.div-login img{
+     margin-top: 25px;
+     width: 15rem;
+}
+
+table{
+     display: flex;
+     width: 35rem;
+     height: 30rem;
+     border: 0.2rem solid rgba(24, 24, 27, 0.692);
+}
+
+#label-login{
+     font-weight: 100;
+     font-size: 3rem;
+     text-align: center;
+     margin-left: 140px;
+     margin-top: 2rem;
+     color: rgba(206, 206, 212, 0.897);
+}
+
+#label-usuario{
+     margin-left: 3.4rem;
+     font-size: 2.5rem;
+     color: rgba(248, 248, 248, 0.623);
+}
+
+#label-contraseña{
+     margin-left: 3.4rem;
+     font-size: 2.5rem;
+     color: rgba(248, 248, 248, 0.623);
+}
+
+.inputs{
+     background-color: rgba(24, 24, 27, 0.027);
+     border-top: 0;
+     border-left: 0;
+     border-right: 0;
+     font-size: 2rem;
+     color: #ffffff;
+     font-weight: 100;
+     font-style: italic;
+     
+}
+
+input[type=text], input[type=password]{
+     margin-left: 3.4rem;
+     width: 25rem;
+     padding: 0.8rem 0.8rem 0.5rem 0.6rem;
+}
+
+.boton{
+     margin-top: 2rem;
+     margin-left: 100px;
+     width: 14rem;
+     height: 3rem;
+     border-radius: 2rem;
+     font-size: 1.5rem;
+     background-color: rgba(53, 53, 58, 0.651);
+}
+
+.boton:hover{
+     cursor: pointer;
+     color: rgba(216, 231, 230, 0.829);
+     background-color: rgba(31, 31, 94, 0.651);
+}
